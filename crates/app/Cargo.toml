@@ -1,0 +1,21 @@
+
+[package]
+name = "hermes-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+directories = { workspace = true }
+toml = { workspace = true }
+serde = { workspace = true }
+chrono = { workspace = true }
+parking_lot = { workspace = true }
+crossbeam-channel = { workspace = true }
+eframe = { workspace = true }
+egui = { workspace = true }
+rfd = { workspace = true }
+hermes-core = { path = "../core" }
+hermes-db = { path = "../db" }

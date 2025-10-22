@@ -1,0 +1,9 @@
+
+[app]
+window_width = 1200
+window_height = 800
+debounce_ms = 350
+
+[storage]
+db_path = ""
+log_dir = ""

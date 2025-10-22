@@ -1,0 +1,11 @@
+
+[package]
+name = "hermes-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+directories = { workspace = true }
+hermes-db = { path = "../db" }
+hermes-core = { path = "../core" }
